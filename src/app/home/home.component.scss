@@ -1,0 +1,132 @@
+.home {
+  height: 100%;
+
+  .main-home {
+    background-image: url('../../assets/header-background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+}
+
+.mainHeaderContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title-header {
+  font-size: 8rem;
+  font-family: 'Cookie', cursive;
+  color: white;
+}
+
+.option {
+  position: absolute;
+  bottom: 0;
+  background-color: snow;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+}
+
+.tab {
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  height: 6rem;
+  width: 100%;
+}
+
+.fab:active,
+.fas:active {
+  color: indianred;
+  ;
+}
+
+.fab,
+.fas {
+  font-size: 30px;
+}
+
+.searchContainer {
+  background-image: linear-gradient(to left, #f4515a, #ff7647, #ff9d37, #fbc433, #e9e949);
+  max-width: 100% !important;
+  padding: 3rem 3rem;
+  align-items: center;
+  text-align: center;
+  display: grid;
+}
+
+
+.content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.initial {
+  display: flex;
+}
+
+.styleButton {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .content {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  .title-header {
+    font-size: 5rem;
+  }
+
+  .styleButton {
+    margin: 0;
+    padding-top: 1em;
+  }
+}
+
+.t-home {
+  text-align: center;
+  margin-top: 3em;
+
+  h3 {
+    font-size: 3em;
+  }
+}
+
+.card-home {
+  justify-content: center;
+  display: flex;
+  margin-top: 4em;
+
+  .card {
+    margin-right: 5em;
+    width: 26em !important;
+  }
+
+  .card-img-top {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50% !important;
+  }
+
+  .card:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 22px 2px rgba(255, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 22px 2px rgba(255, 0, 0, 1);
+    box-shadow: 0px 0px 22px 2px rgba(255, 0, 0, 1);
+    transition: background-color 2s ease-out;
+  }
+}

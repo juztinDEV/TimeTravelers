@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+html, body {
+    scroll-behavior: smooth;
+    height:100%;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Bree Serif', serif;
+}

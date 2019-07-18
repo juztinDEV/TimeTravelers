@@ -1,0 +1,30 @@
+.header {
+  height: 8rem;
+  position: fixed;
+  width: 100%;
+  color:honeydew;
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.main_nav_list {
+  display: flex;
+  list-style: none;
+  letter-spacing: 0.3em;
+
+  .main_nav_item {
+    padding-right: 2em;
+
+    a {
+      text-decoration: none;
+      font-size: 1.4em;
+      color: inherit;
+    }
+    a:hover {
+        font-weight: 700;
+      }
+  }
+}
+
+.main-header {
+    padding-top: 2em;
+}
